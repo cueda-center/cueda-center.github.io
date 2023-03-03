@@ -1,0 +1,182 @@
+/* general */
+body {
+    font-family: Arial, "Lato", sans-serif;
+    background-color: #f8f8f8;
+
+}
+
+p {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+a {
+    color: #1f4e9b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+}
+
+/* navBar */
+#myNavBar {
+    max-width: 1300px;
+}
+
+#myBrand {
+    font-weight: bold;
+}
+
+.active-nav-item {
+    font-weight: bold;
+}
+
+/* title */
+#titleDiv {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    background-image: url(../img/cuhk-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+#titleText {
+    margin: auto;
+    max-width: 1000px;
+}
+
+#titleText h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#titleText h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#titleText hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    width: 115%;
+    margin: 0 -7.5% 0 -7.5%;
+    background: black;
+    margin-bottom: 50px;
+    opacity: .99;
+}
+
+/* news */
+.myTable {
+    margin-bottom: 0;
+}
+
+.newsTime {
+    width: 10%;
+}
+
+
+#newsHead {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.last-tr {
+    border-bottom: hidden;
+}
+
+/* people */
+
+.prof-img {
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+}
+
+.student-name {
+    font-size: large;
+}
+
+.stu-img {
+    width: auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+/* publications */
+
+#pubs_sort h1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 0px) {
+    .prof-img {
+        object-fit: scale-down;
+        height: 350px;
+    }
+
+    .stu-img {
+        object-fit: scale-down;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .prof-img {
+        object-fit: scale-down;
+        height: 350px;
+    }
+
+    .stu-img {
+        object-fit: scale-down;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .prof-container {
+        max-width: 380px;
+    }
+
+    .stu-container {
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .prof-img {
+        object-fit: cover;
+        height: 350px;
+    }
+
+    .stu-img {
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .container {
+        max-width: 1000px;
+    }
+}
