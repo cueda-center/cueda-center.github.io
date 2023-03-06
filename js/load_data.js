@@ -46,7 +46,7 @@ function parseProfessorData(data) {
         div_card.appendChild(div_body)
         div_col.appendChild(div_card)
         profs.appendChild(div_col);
-        
+
         // <div class="col">
         //     <div class="card h-100">
         //         <img src="img/professors/Somebody.jpg" class="card-img-top prof-img" alt="professor">
@@ -88,8 +88,12 @@ function parseStudentData(data) {
         // <h5 class="card-title"><a href="xxx.github.io" target="_blank"><b>xxx</b></a></h5>
         // <p class="card-text">PhD Student <br>2025 - Present</p>
         var homepageUrl = record[6]
-        if (homepageUrl == "") { homepageUrl = "https://www.cse.cuhk.edu.hk/~" + record[0] + "/" }
-        let titleName = "<p class=\"card-title student-name\"><a href=\"" + homepageUrl + "\" target=\"_blank\"><b>" + record[1] + "</b></a></p>"
+        let titleName = "<p class=\"card-title student-name\">"
+        if (homepageUrl != "") {
+            titleName += "<a href=\"" + homepageUrl + "\" target=\"_blank\"><b>" + record[1] + "</b></a></p>"
+        } else {
+            titleName += "<b>" + record[1] + "</b></p>"
+        }
         let titleInfo = "\n" + "<p class=\"card-text\">" + record[2] + "<br>" + record[3] + " - Present</p>"
         div_body.innerHTML = titleName + titleInfo
         div_card.appendChild(div_img)
@@ -105,7 +109,7 @@ function parseAlumniData(data) {
 
     // const fs = require('fs')
     // six fields: cse email id (key), student name, student type (PhD/MPhil), year, is alumni (0/1), homepage (url)
-    for (let i = 1; i < data.length; i++) {
+    for (let i = data.length - 1; i >= 1; i--) {
         // skip first row in the csv
         const record = data[i];
         if (record[4] == 0) { continue; }
@@ -127,14 +131,18 @@ function parseAlumniData(data) {
         // <h5 class="card-title"><a href="xxx.github.io" target="_blank"><b>xxx</b></a></h5>
         // <p class="card-text">PhD Student <br>2025 - Present</p>
         var homepageUrl = record[6]
-        if (homepageUrl == "") { homepageUrl = "https://www.cse.cuhk.edu.hk/~" + record[0] + "/" }
-        let titleName = "<p class=\"card-title student-name\"><a href=\"" + homepageUrl + "\" target=\"_blank\"><b>" + record[1] + "</b></a></p>"
+        let titleName = "<p class=\"card-title student-name\">"
+        if (homepageUrl != "") {
+            titleName += "<a href=\"" + homepageUrl + "\" target=\"_blank\"><b>" + record[1] + "</b></a></p>"
+        } else {
+            titleName += "<b>" + record[1] + "</b></p>"
+        }
         let titleInfo = ""
         if (record[5] != "") {
             titleInfo += "\n" + record[5]
         }
         div_body.innerHTML = titleName + titleInfo
-        div_card.appendChild(div_img)
+        // div_card.appendChild(div_img)
         div_card.appendChild(div_body)
         div_col.appendChild(div_card)
         stus.appendChild(div_col);
