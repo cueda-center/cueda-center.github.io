@@ -1,0 +1,16 @@
+# Gemfiles
+_site
+Gemfile.lock
+.sass-cache
+.jekyll-metadata
+
+# Backup files
+*~
+*.vscode
+
+# Vendor/bundle
+vendor/
+.bundle/
+
+# MacOS files
+**.DS_Store**
