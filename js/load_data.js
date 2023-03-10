@@ -244,3 +244,12 @@ function loadAll() {
     loadNewsAll()
 }
 
+function loadHome() {
+    loadProfessor()
+    loadNewsShort()
+}
+
+function loadPeople() {
+    loadProfessor()
+    loadStudent()
+}
