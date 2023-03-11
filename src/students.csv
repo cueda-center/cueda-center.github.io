@@ -17,10 +17,10 @@ zgxiao;Zigang Xiao;MPhil Student;-1;1;PhD at UIUC (now in Meta, CA);https://scho
 yjiang;Yan Jiang;MPhil Student;-1;1;Oracle (Shenzhen);
 httian;Haitong Tian;MPhil Student;-1;1;PhD at UIUC (now in Apple, CA);https://scholar.google.com/citations?user=tYiqOBQAAAAJ&hl=zh-TW
 lhuang;Lin Huang;MPhil Student;-1;1;First position: PhD at Stanford University;https://scholar.google.com/citations?user=KlYBaWsAAAAJ&hl=en
-ybzhang;Yubin Zhang;-1;-1;1;;
+ybzhang;Yubin Zhang;-1;-1;1;AppoTech;
 xliu;Xiao Liu;PhD Student;-1;1;Postdoc at UC Berkeley (now in Futurewei Tech.);https://scholar.google.com/citations?user=WNdzg5UAAAAJ&hl=en
 hlyu;Haile Yu;PhD Student;2007;1;Founder & CEO at CT Accel;
-fyuan;Feng Yuan;PhD Student;-1;1;;
+fyuan;Feng Yuan;PhD Student;-1;1;ORBBEC;
 yxliu;Yuxi Liu;PhD Student;-1;1;;
 lfxiao;Linfu Xiao;PhD Student;-1;1;Software Architect at Cadence (San Jose);https://scholar.google.com/citations?user=KEvsS_4AAAAJ&hl=en
 rye;Rong Ye;-1;-1;1;First position: Postdoc at Imperial College;
@@ -36,11 +36,11 @@ zqliu;Liu Zhiqing;MPhil Student;-1;1;;
 cwliu;Chuangwen Liu;MPhil Student;-1;1;;
 jzhang;Jie Zhang;-1;-1;1;;
 qzhang;Qian Zhang;PhD Student;2012;1;Assistant Professor at UC Riverside;https://www.cs.ucr.edu/~qzhang/
-twang;Ting wang;PhD Student;-1;1;;
+twang;Ting Wang;PhD Student;-1;1;Tencent;
 ynliu;Yannan Liu;PhD Student;-1;1;ByteDance;https://scholar.google.com.hk/citations?hl=zh-CN&user=UwfU_2sAAAAJ&view_op=list_works&sortby=pubdate
 jkuang;Jian Kuang;PhD Student;2013;1;Meta (San Jose);https://sites.google.com/site/jkuangpage/home
 wkchow;Wing-Kai Chow;PhD Student;2013;1;Cadence (Austin);https://scholar.google.com.hk/citations?user=3IkverkAAAAJ&hl=en
-ytian;Ye Tian;-1;-1;1;;
+ytian;Ye Tian;-1;-1;1;Huawei;
 lxwei;Lingxiao Wei;PhD Student;-1;1;Microsoft;https://ultracold273.github.io/about/
 pstu;Peishan Tu;PhD Student;2014;1;Huawei (Shenzhen);https://sharonqiu.github.io/
 hzhang;Hang Zhang;MPhil Student;2015;1;PhD at Cornell;https://tinymilky.github.io/
@@ -49,29 +49,22 @@ gjchen;Gengjie Chen;PhD Student;2015;1;Huawei (Shenzhen);https://chengengjie.git
 hcli;Haocheng Li;PhD Student;2016;1;Synopsys (Burlington);https://haocheng.li/
 yzma;Yuzhe Ma;PhD Student;2016;1;Assistant Professor at HKUST(GZ);https://yuzhe630.github.io/
 hyyang;Haoyu Yang;PhD Student;2016;1;NVIDIA (Austin);https://phdyang007.github.io/
-fyhuang;Fuyang Huang;PhD Student;-1;1;;
-zzliu;Zhengzhe Liu;MPhil Student;-1;1;;
-qxlai;Qiuxia Lai;PhD Student;-1;1;;
 btjiang;Bentian Jiang;PhD Student;2017;1;Huawei (Hong Kong);https://infamousmega.github.io/
 jschen;Jingsong Chen;PhD Student;2017;1;Huawei (Shenzhen);https://jingsongchen.github.io/
 hgeng;Hao Geng;PhD Student;2017;1;Assistant Professor at ShanghaiTech;https://true-genghao.github.io/genghao/
 thchen;Tinghuan Chen;PhD Student;2017;1;Assistant Professor at CUHK-SZ;https://mypage.cuhk.edu.cn/academics/chentinghuan/
 yli;Yu Li;PhD Student;2017;1;Assistant Professor at HIT(SZ);https://liyu2077.com/
-alzeng;Ailing Zeng;PhD Student;2017;1;IDEA;https://ailingzeng.site/
-mhliu;Minhao Liu;PhD Student;-1;1;;
 jwliu;Jinwei Liu;PhD Student;2018;1;Cadence (San Jose);https://anticold.github.io/
 dzheng;Dan Zheng;PhD Student;2018;1;Huawei (Hong Kong);
 xpzhang;Xiaopeng Zhang;PhD Student;2018;1;Huawei (Shenzhen);https://zxpjustin.github.io/
 rchen;Ran Chen;PhD Student;2018;1;Huawei;
 qsun;Qi Sun;PhD Student;2018;1;Postdoc at Cornell;http://qisunchn.top/
-bluo;Bo Luo;MPhil Student;-1;1;;
 wli;Wei Li;MPhil Student;2015;1;PhD at CMU;https://wadmes.github.io/cv/
 mli;Min Li;PhD Student;2018;0;;
 fzwang;Fangzhou Wang;PhD Student;2019;0;;https://wfz0755.github.io/
 lxliu;Lixin Liu;PhD Student;2019;0;;https://liulixinkerry.github.io/
 zlhe;Zhuolun He;PhD Student;2019;0;;https://zleonhe.github.io/
 wlchen;Wanli Chen;PhD Student;2019;0;;https://cwanli.github.io/
-yjyang;Yijun Yang;PhD Student;2019;0;;https://yangyijune.github.io/
 sjlin;Shiju Lin;PhD Student;2020;0;;https://appsrv.cse.cuhk.edu.hk/~sjlin/
 xszang;Xinshi Zang;PhD Student;2020;0;;
 pyliao;Peiyu Liao;PhD Student;2020;0;;https://enzoleo.github.io/pages/about.html
@@ -80,7 +73,6 @@ stliu;Siting Liu;PhD Student;2020;0;;https://lusica1031.github.io/
 wqzhao;Wenqian Zhao;PhD Student;2020;0;;https://wenqian1228.github.io/
 ybai;Yang Bai;PhD Student;2020;0;;https://ybai62868.github.io/
 bwzhu;Binwu Zhu;PhD Student;2020;0;;https://kins1ley.github.io/
-rygao;Ruiyuan Gao;PhD Student;2020;0;;http://www.cse.cuhk.edu.hk/~rygao
 skhan;Sadaf Khan;PhD Student;2020;0;;https://khan-sadaf.github.io/
 tjliu;Tianji Liu;PhD Student;2021;0;;https://github.com/tefantasy/tefantasy.github.io
 bqfu21;Bangqi Fu;PhD Student;2021;0;;
@@ -93,9 +85,7 @@ xyzhang21;Xinyun Zhang;PhD Student;2021;0;;https://yxgnahz.github.io/
 zyyu21;Ziyang Yu;PhD Student;2021;0;;https://scarecrowyu.github.io/
 zywang21;Ziyi Wang;PhD Student;2021;0;;https://zeayw.github.io/
 zzhuang21;Zhen Zhuang;PhD Student;2021;0;;https://zeayw.github.io/
-zjxu21;Zhijian Xu;PhD Student;2021;0;;
 zyshi21;Zhengyuan Shi;PhD Student;2021;0;;
-mxchen21;Muxi Chen;PhD Student;2021;0;;
 qluo22;Qin Luo;PhD Student;2022;0;;https://tomqingo.github.io/
 ysun22;Yang Sun;PhD Student;2022;0;;
 whlau22;Wing Ho Lau;PhD Student;2022;0;;
@@ -110,5 +100,3 @@ sxchen22;Shixin Chen;PhD Student;2022;0;;http://sxchen.cn/
 yzhang22;Yu Zhang;PhD Student;2022;0;;https://yuzhang712.github.io/
 syin22;Shuo Yin;PhD Student;2022;0;;https://sawydust1228.github.io/
 yliu22;Yi Liu;PhD Student;2022;0;;https://peterlau61.github.io/
-xju22;Xuan Ju;PhD Student;2022;0;;
-xywen22;Xiangyu Wen;PhD Student;2022;0;;https://xywen97.github.io/
