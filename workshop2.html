@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CUHK EDA Center</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
+    <bibtex src="src/edacenter.bib"></bibtex>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/load_data.js"></script>
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div id="myNavBar" class="container-fluid">
+            <a class="navbar-brand" id="myBrand" href="index.html">EDA Center</a>
+            <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-nowrap" id="navbarNavUl">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="./news.html">News</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./people.html">People</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="./pubs.html">Publications</a>
+                    </li> -->
+                </ul>
+            </div>
+            <button class="navbar-toggler text-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="pt-3 tab-pane"></div>
+
+    <div id="workshopTitleDiv" class="col d-flex text-center align-items-center">
+        <div id="titleText">
+            <h1>Hong Kong EDA Workshop</h1>
+        </div>
+    </div>
+
+    <!-- main body -->
+    <div class="container tab-content px-3 pt-5">
+        <div>
+            <div class="pt-3">
+                <h1><b>Agenda</b></h1>
+                <div class="pt-3">
+                    <h5><b>Date</b>: 31st August 2024</h5>
+                    <h5><b>Time</b>: 9:00 - 17:00</h5>
+                    <h5><b>Venue</b>: Courtyard by Marriott Hong Kong Sha Tin</h5>
+                </div>
+                <a class="btn btn-primary btn-lg" href="" role="button">Register
+                    Now!</a>
+            </div>
+
+
+            <div class="pt-3 accordion" id="accordionExample">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                            <div class="col-2">9:00-12:00</div>
+                            <div class="col-8 row">
+                                <div class="pt-2"><strong>EDA for 3D ICs</strong></div>
+                                <div class="pt-1 row">
+                                    <div class="pt-1"><em>Prof. Krishnendu Chakrabarty (Arizona State University)</em>
+                                    </div>
+                                    <div class="pt-1"><em>Prof. Yao-Wen Chang (National Taiwan University)</em></div>
+                                    <div class="pt-1"><em>Prof. Sung-Kyu Lim (Georgia Tech)</em></div>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/Krishnendu_Chakrabarty.png" class="img-fluid"
+                                        alt="Responsive image">
+                                </div>
+                                <div class="pt-2 col-8">
+                                    <h5><strong>Prof. Krishnendu Chakrabarty (Arizona State University)</strong></h5>
+                                    <strong><em>Title: Design-for-Test Solutions for 3D Integrated
+                                            Circuits</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/yao_wen_chang.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Yao-Wen Chang (National Taiwan University)</strong></h5>
+                                    <strong><em>Title: Physical Design for Heterogeneous Integration: Challenges and
+                                            Solutions</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/Sung_Kyu_Lim.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Sung-Kyu Lim (Georgia Tech)</strong></h5>
+                                    <strong><em>Title: Physical Design for Monolithic 3D ICs</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <div class="col-2">9:00-12:00</div>
+                            <div class="col-8 row">
+                                <div class="pt-2"><strong>EDA x AI</strong></div>
+                                <div class="pt-1 row">
+                                    <div class="pt-1"><em>Prof. Masanori Hashimoto (Kyoto University)</em></div>
+                                    <div class="pt-1"><em>Prof. Taewhan Kim (Seoul National University)</em></div>
+                                    <div class="pt-1"><em>Prof. Yu Wang (Tsinghua University)</em></div>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/Masanori_Hashimoto.png" class="img-fluid"
+                                        alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Masanori Hashimoto (Kyoto University)</strong></h5>
+                                    <strong><em>Title: Reliability Exploration of Neural Network
+                                            Accelerator</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/Taewhan_Kim.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Taewhan Kim (Seoul National University)</strong></h5>
+                                    <strong><em>Title: Challenges on Standard Cell Layout Generation at Advanced
+                                            Technology Nodes</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/yu_wang.png" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Yu Wang (Tsinghua University)</strong></h5>
+                                    <strong><em>Title: Efficient Inference for Large Language Models</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <div class="col-2">14:00-17:00</div>
+                            <div class="col-8 row">
+                                <div class="pt-2"><strong>EDA for Emerging Technologies</strong></div>
+                                <div class="pt-1 row">
+                                    <div class="pt-1"><em>Prof. Rolf Drechsler (University of Bremen)</em></div>
+                                    <div class="pt-1"><em>Prof. Jie Han (University of Alberta)</em></div>
+                                    <div class="pt-1"><em>Prof. Ulf Schlichtmann (Technical University of Munich)</em>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/Rolf_Drechsler.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Rolf Drechsler (University of Bremen)</strong></h5>
+                                    <strong><em>Title: Polynomial Formal Verification: Ensuring Correctness under
+                                            Resource Constraints</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/Jie_Han.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Jie Han (University of Alberta)</strong></h5>
+                                    <strong><em>Title: Efficient Approximate Decomposition Solver using Ising
+                                            Model</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/SchlichtmannUlf.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Ulf Schlichtmann (Technical University of Munich)</strong></h5>
+                                    <strong><em>Title: Multi-Resonance Mesh-Based Wavelength-Routed Optical
+                                            Networks-on-Chip</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <div class="col-2">14:00-17:00</div>
+                            <div class="col-8 row">
+                                <div class="pt-2"><strong>EDA for Hardware Security</strong></div>
+                                <div class="pt-1 row">
+                                    <div class="pt-1"><em>Prof. Sri Parameswaran (University of Sydney)</em></div>
+                                    <div class="pt-1"><em>Prof. Gang Qu (University of Maryland)</em></div>
+                                    <div class="pt-1"><em>Prof. Xin Li (Duke University)</em></div>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/Sridevan_Parameswaran.jpg" class="img-fluid"
+                                        alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Sri Parameswaran (University of Sydney)</strong></h5>
+                                    <strong><em>Title: FPGA Based Countermeasures against Side Channel
+                                            Attacks</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/gangqu.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Gang Qu (University of Maryland)</strong></h5>
+                                    <strong><em>Title: Overtake: Achieving Meltdown-type Attacks with One
+                                            Instruction</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="pt-2 row profbox">
+                                <div class="col-2">
+                                    <img src="./workshop2/xin_li.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <div class="col-8">
+                                    <h5><strong>Prof. Xin Li (Duke University)</strong></h5>
+                                    <strong><em>Title: Robust Wafer Classification with Imperfectly Labeled
+                                            Data</em></strong>
+                                    <!-- <div>Abstract: TODO</div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="pb-5"></div>
+
+        <!-- footer -->
+        <!-- <footer class="bg-dark">
+            <div class="container justify-content-evenly">
+                <div class="row justify-content-evenly">
+
+                    <div class="col my-4 pt-1">
+                        <h1>EDA Center</h1>
+                        <p class="pt-1">
+                            Department of Computer Science and Engineering<br>
+                            Ho Sin-Hang Engineering Building<br>
+                            The Chinese University of Hong Kong<br>
+                            Shatin, New Territories, Hong Kong.
+                        </p>
+                    </div>
+
+                    <div class="col my-4">
+                        <script type="text/javascript" id="clustrmaps"
+                            src="//clustrmaps.com/map_v2.js?d=_3Vx8XDKUsLPb_wgeb_vN6vFVXeg_0FVmTU2E6ShkPc&cl=ffffff&w=a"></script>
+                    </div>
+                </div>
+            </div>
+        </footer> -->
+
+</body>
+
+</html>
